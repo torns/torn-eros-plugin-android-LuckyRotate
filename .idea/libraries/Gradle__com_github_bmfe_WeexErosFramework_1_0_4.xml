@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.bmfe:WeexErosFramework-1.0.4">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/WeexErosFramework-1.0.4.aar/7cbf052c5200bdbcf558e5ae83b00dec/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/WeexErosFramework-1.0.4.aar/7cbf052c5200bdbcf558e5ae83b00dec/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/WeexErosFramework-1.0.4.aar/d051a56945931d13f03ad30004b3641e/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/WeexErosFramework-1.0.4.aar/d051a56945931d13f03ad30004b3641e/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

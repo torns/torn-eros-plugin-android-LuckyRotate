@@ -1,5 +1,4 @@
 apply plugin: 'com.android.application'
-apply plugin: 'eros-revan'
 
 android {
     compileSdkVersion 25
