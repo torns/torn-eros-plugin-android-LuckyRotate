@@ -27,20 +27,20 @@ import java.util.List;
  */
 
 public class RotateView extends View {
-    private Context context;
+    protected Context context;
     private int panNum = 6;
     private Paint dPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
     private Paint sPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
-    private Paint textPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
+    protected Paint textPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
     private int InitAngle = 0;
     private int radius = 0;
-    private int verPanRadius ;
+    protected int verPanRadius ;
     private int diffRadius ;
     private List<Integer> images =new ArrayList<>();
     private List<String> strs =new ArrayList<>() ;
 
 
-    private List<Bitmap> bitmaps = new ArrayList<>();
+    protected List<Bitmap> bitmaps = new ArrayList<>();
     private ScrollerCompat scroller;
     private int screenWidth,screeHeight;
 
@@ -159,7 +159,7 @@ public class RotateView extends View {
         mCanvas.drawTextOnPath(string, path, hOffset, vOffset, mTextPaint);
     }
 
-    private void drawIcon(int xx,int yy,int mRadius,float startAngle, int i,Canvas mCanvas) {
+    protected void drawIcon(int xx,int yy,int mRadius,float startAngle, int i,Canvas mCanvas) {
 
         int imgWidth = mRadius / 4;
 
